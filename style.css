@@ -2,26 +2,123 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Gilroy';
+    font-family: "Roboto", sans-serif;
+   
 }
 
 html, body{
     height: 100%;
     width: 100%;
+    
 }
 #main{
-    background-color: beige;
+    background-color: #F8F8F8;
     width: 100%;
     height: 100%;
+    position: relative;
+    padding-top: 1px;
 }
 #nav{
+    margin-top: 40px;
     width: 100%;
-    height: 10%;
-    background-color: red;
+    height:10vh;
+    /* background-color: red; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 #nav h2{
-    background-color: yellow;
+    height: 100%;
+    width: 23%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid black;
+    font-size: 22px;
+    font-weight: 600;
+}
+#nav h2:nth-last-child(1){
+    width: 10%;
+    /* background-color: yellow; */
+}
+#nav h1{
+    height: 100%;
+    width: 18%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: monument;
+    margin-left: 15px;
+    letter-spacing: -3px;
+}
 
+#center{
+    width: 100%;
+    height: 90%;
+    /* background-color: red; */
+    overflow-x: hidden;
+    padding: 4vw;
+}
+#content{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    position: relative;
+}
+
+#content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#overlay{
+    position: absolute;
+    width: 100%;
+    height:55%;
+    /* background-color: red; */
+    bottom: 0;
+    padding: 3vw;
+}
+
+#top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FEFFFF;
+    
+}
+#top h1{
+    font-family: monument;
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+#top h3{
+    padding: 2vw 2vw;
+    
+    border: 1px solid white;
+    border-bottom: 5px solid white;
+    border-radius: 50%;
+}
+
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FEFFFF;
+    border-top: 2px solid #F8F8F8;
+    padding: 1vw 0;
+    
+}
+#bottom h3{
+    font-weight: 500;
+}
+#bottom img{
+height: 3vw;
 }
