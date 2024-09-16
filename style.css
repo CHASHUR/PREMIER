@@ -1,10 +1,10 @@
+/* ... (previous code remains unchanged) ... */
 
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:'Gilroy';
     font-family: "Roboto", sans-serif;
    
 }
@@ -170,7 +170,7 @@ height: 3vw;
 #page2{
     width: 100%;
     height: 100%;
-    /* background-color: pink; */
+    background-color: pink;
 }
 #section{
     width: 100%;
@@ -209,10 +209,124 @@ height: 3vw;
     font-style: italic;
     display: flex;
     justify-content: center;
-    font-weight: 4a00;
+    font-weight: 400;
     /* opacity: 0; */
 }
 .right h3:hover{
     border: 2px solid rgba(0, 0, 0, 0.792);
     
 }
+
+#posters{
+    width: 100%;
+    height: 115vh;
+    /* background-color: red; */
+    padding: 3.5vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+.left-s{
+    width: 56%;
+    /* background-color: blue; */
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-s img {
+    width: 100%;
+    height: 92%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.left-s h1 {
+    font-family: 'Monument', sans-serif; 
+    text-transform: uppercase; 
+    font-size: 2.4rem; 
+    margin-top: 14px; 
+    align-self: flex-start; 
+}
+.right-s {
+    width: 40%;
+    /* background-color: rgb(212, 255, 0); */
+    height: 47vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-s img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    object-position: 30% 40%;
+}
+
+.right-s .info {
+    height: 30%;
+    display: flex;
+    
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.right-s h3 {
+   width: 20vw;
+    margin-bottom: 10px;
+    text-align: start;
+    font-size: 1.7rem; 
+    font-weight: 500; 
+    
+    letter-spacing: -1px;
+    /* gap: 2px; */
+}
+
+.right-s h4 {
+    font-weight: 300;
+    width: 20vw;
+    text-align: start;
+    letter-spacing: -1px;
+}
+/* 
+#page3{
+    width: 100%;
+    height: 110vh;
+    padding: 4vw;
+    background-color: red;
+    display: flex;
+    justify-content: space-around; 
+ }
+.left-3{
+    width: 40%;
+    height: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.left-3 img{
+    width: 50%;
+    padding-left: 4rem;
+    align-items: center;
+}
+.left-3 h3{
+    align-items: center;
+    padding-left: 3.5vw;
+    margin-top: 10vw;
+    font-size: 2.3 rem;
+    font-weight: 600;
+}
+.right-3{
+width: 60%;
+height: 100%;
+background-color: yellow;
+}
+.right-3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 30% 40%;
+} */
