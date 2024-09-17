@@ -302,49 +302,9 @@ height: 3vw;
     text-align: start;
     letter-spacing: -1px;
 }
-/* 
-#page3{
-    width: 100%;
-    height: 110vh;
-    padding: 4vw;
-    background-color: red;
-    display: flex;
-    justify-content: space-around; 
- }
-.left-3{
-    width: 40%;
-    height: 100%;
-    background-color: blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
-}
-.left-3 img{
-    width: 50%;
-    padding-left: 4rem;
-    align-items: center;
-}
-.left-3 h3{
-    align-items: center;
-    padding-left: 3.5vw;
-    margin-top: 10vw;
-    font-size: 2.3 rem;
-    font-weight: 600;
-}
-.right-3{
-width: 60%;
-height: 100%;
-background-color: yellow;
-}
-.right-3 img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 30% 40%;
-} */
+
  /* Loader styles */
-#loader-wrapper {
+/* #loader-wrapper {
     position: fixed;
     top: 0;
     left: 0;
@@ -387,7 +347,7 @@ background-color: yellow;
 @keyframes revealText {
     0% { clip-path: inset(0 100% 0 0); }
     100% { clip-path: inset(0 0 0 0); }
-}
+} */
 
 body {
     overflow: hidden;
@@ -396,3 +356,93 @@ body {
 body.loaded {
     overflow: auto;
 }
+
+#updates{
+
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#updates h1{
+    margin-top: 5vw;
+    font-family: monument;
+}
+.tenderline{
+    margin-top: 7vw;
+    
+    }
+.tenderline-text {
+    border-top: 2px solid black;
+    width: 80vw;
+    height: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0 20px; */
+}
+
+.tenderline:last-child {
+    border-bottom: 2px solid black;
+}
+.tenderline-text h4 {
+    width: 3vw;
+    height: 4vw;
+    font-weight: 500;
+    font-size: 2rem;
+}
+.tenderline-text img {
+    width: 9vw;
+    height: 7vw;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    }
+ /* .tenderline animations */
+ .tenderline-text img {
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    transform: translateX(-20px);
+}
+.tenderline-text:hover img
+ {
+    opacity: 1;
+    transform: translateX(0);
+}
+.tenderline-text:hover img {
+    transition-delay: 0s;
+}
+
+.tenderline-text:hover .text {
+    transition-delay: 0.2s;
+}
+
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 20vw;
+}
+
+.text h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
