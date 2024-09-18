@@ -211,9 +211,23 @@
 
 @media only screen and (max-width: 450px){
 
+    .tenderline-text h4 {
+        font-size: 0.9rem;
+    }
+    .text h2 {
+        font-size: 0.8rem;
+    }
+        #banner{
+            margin-top: 24vw;
+        }
+
+        .tenderline-text {
+            height: 19vw;
+            /* padding: 24px 0; */
+        }
     #updates {
         height: 38vh;
-        margin-top: 38vw;
+        margin-top: 50vw;
     }
     #center {
         height: 46%;
