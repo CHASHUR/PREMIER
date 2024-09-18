@@ -1161,11 +1161,34 @@ letter-spacing: 2px;
 
 @media only screen and (max-width: 450px){
 
+
+    #overlay {
+        height: 25%;
+    }
+    #nav h1{
+        font-size: 1.8rem;
+    }
+    #nav h3{
+        font-size: 0.8rem;
+    }
+    #top h1 {
+        font-size: 1rem;
+    }
+    #top h3{
+        display: none;
+    }
     .tenderline-text h4 {
         font-size: 0.9rem;
     }
     .text h2 {
         font-size: 0.8rem;
+    }
+    .right-s h4 {
+        font-size: 0.8rem ;
+    }
+    .right-s h3 {
+        font-size: 15px;
+        margin-right: 10px;
     }
         #banner{
             margin-top: 24vw;
@@ -1177,7 +1200,7 @@ letter-spacing: 2px;
         }
     #updates {
         height: 38vh;
-        margin-top: 50vw;
+        margin-top: 20vw;
     }
     #center {
         height: 46%;
@@ -1189,6 +1212,19 @@ letter-spacing: 2px;
     }
     #scroll img {
         width: 42vw;}
+        .f-mid h2 {
+            font-size: 0.9em;
+        }
+
+        .f-right h2 {
+            
+            font-size: 0.9rem;
+        }
+        .bottom h3{
+            font-size: 0.8rem;
+        }
+        .f-left h1 {
+            font-size: 1.4rem;}
 }
 
 @media only screen and (min-width: 764px) and (max-width: 1100px) {
