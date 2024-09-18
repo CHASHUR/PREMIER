@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     .loader-text {
         font-size: clamp(2.5rem, 5vw, 3.5rem);
         letter-spacing: 5px;
@@ -29,7 +29,8 @@
     #overlay { height: 56%; }
     #scroll { width: 100%; }
     #scroll img {
-        /* width: clamp(30vw, 35%, 40vw); */
+        
+            width: 42vw;
         height: 20vh;
         margin-right: 5px;
         padding: 0 2px;
@@ -208,9 +209,25 @@
     #footer { margin-top: 70vw; }
 }
 
+@media only screen and (max-width: 450px){
 
+    #updates {
+        height: 38vh;
+        margin-top: 38vw;
+    }
+    #center {
+        height: 46%;
+    }
 
-@media only screen and (min-width: 764px) and (max-width: 1000px) {
+    #footer {
+        margin-top: 88vw;
+        
+    }
+    #scroll img {
+        width: 42vw;}
+}
+
+@media only screen and (min-width: 764px) and (max-width: 1200px) {
     #nav {
         flex-direction: flex;
         height: auto;
@@ -331,7 +348,8 @@
     }
 
     #updates {
-        height: 70vh;
+        height: 44vh;
+        margin-top: 13vw;
     }
 
     .text h2 {
@@ -385,7 +403,7 @@
     #footer {
         flex-direction: row;
         height: auto;
-        margin-top: 10vw;
+        margin-top: 15vw;
     }
 
     .f-left, .f-mid, .f-right {
